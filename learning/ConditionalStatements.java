@@ -1,13 +1,23 @@
 package learning;
-public class ConditionalStatements{
+
+public class ConditionalStatements {
     public static void main(String[] args) {
-        // conditional statements 
-        //thre are 2 types in conditional ifelse and switch
+        // conditional statements
+        // thre are 2 types in conditional ifelse and switch
         int age = 10;
-        if(age <18){
+        if (age < 18) {
             System.out.println("you are not eligible to drive a car");
-        }else{
+        } else {
             System.out.println("you are eligible to drive cor");
+        }
+
+
+        // now using relational operator 
+        //== != < <= >=  >
+        if (age >= 18) {
+            System.out.println("you are eligible");
+        }else{
+            System.out.println("you are not eligible");
         }
     }
 }
