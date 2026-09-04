@@ -65,6 +65,19 @@ class TommyVecetti{
     
 }
 
+class Circle{
+    int sides,r=sides;
+    void Setside(int n){
+        sides=n;
+    }
+    float area(){
+        return 3.14f*sides*sides;
+    }
+    float circumference(){
+        return 2*3.142f*sides;
+    }   
+}
+
 
 public class Class8 {
     public static void main(String[] args) {
