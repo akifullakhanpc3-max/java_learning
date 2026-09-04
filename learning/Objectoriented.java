@@ -17,6 +17,7 @@ public class Objectoriented {
        //encapsulation -- the act of puttin carious component together in a capsule hiding sensitive data
        //polymorphism -- many forms  
        //inheritance -- the act of driving new things from existing things
+         
     }
 }
 
