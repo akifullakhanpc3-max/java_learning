@@ -13,9 +13,9 @@ class RandomNumber{
     int GetNumber(){
         return number;
     }
-    void setUser(int a){
-        guess = a;
-    }
+    // void setUser(int a){
+    //     guess = a;
+    // }
     // boolean isCorrect(){
     //     return true;
     // }
