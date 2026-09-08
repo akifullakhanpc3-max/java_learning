@@ -23,6 +23,7 @@ public class C11polymorphism {
     public static void main(String[] args) {
         camera s1 = new Smartphone();
         s1.capturephoto();
-        //s1.playmusic();
+        //s1.playmusic();  --> not allowed 
+        
     }
 }
