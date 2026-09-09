@@ -60,6 +60,22 @@ class  Smartphone extends Telephone{
     }
 }
 
+interface TVRemote{
+    void button();
+    void sound(int incORdec);
+}
+interface SmartTVRemote extends TVRemote{
+    void youtubeButton();
+}
+
+class TV implements TVRemote{
+    public void button(){
+        System.out.println("old buttons");
+    }
+    public void sound(int incORdec){
+        System.out.println("increment or decrements the sound");
+    }
+}
 
 public class C11AbstractInterface {
     public static void main(String[] args) {
@@ -77,7 +93,7 @@ public class C11AbstractInterface {
         Telephone t1 = new Smartphone();
         t1.disconnect();
         //t1.call();
-
+        //polymorphism
         Monkey mon = new Human();
         mon.bite();
     }
