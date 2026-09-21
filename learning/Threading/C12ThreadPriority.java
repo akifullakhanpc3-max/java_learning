@@ -23,6 +23,8 @@ public class C12ThreadPriority {
         ThreadPriority t4 = new ThreadPriority("4");
         ThreadPriority t5 = new ThreadPriority("5");
         t5.setPriority(Thread.MAX_PRIORITY);
+        //norm_prioprity
+        //min_priority
         t1.start();
         t2.start();
         t3.start();
