@@ -12,6 +12,7 @@ class C12MyThread extends Thread{
         super(r);
     }
     public C12MyThread(ThreadGroup group, String name){
+
         
     }
 
